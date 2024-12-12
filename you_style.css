@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    background-image: url("amazon_photo/nature1.avif");
+    background-size: cover;
+}
+.main{
+    height: 100px;
+    width: 100px;
+    border-radius: 30px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    cursor: pointer;
+}
+.contener{
+    height: 60px;
+    width: 80px;
+    background-color: red;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.trin{
+    height: 0px;
+    width: 0px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 20px solid white;
+    
+}
+p{
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    top: 320px;
+}
+button{
+    
+    border-radius: 30px;
+}
